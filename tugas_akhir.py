@@ -22,3 +22,9 @@ def main():
 	number = randnumber()
 	angkauser = userinput()
 	num_tebak = 0
+	while tebak:
+		num_tebak += 1
+		if (angkauser==number):
+			print("Tebakan benar, angkanya adalah", number)
+			print("Tertebak dalam %d tebakan" % num_tebak)
+			tebak = False
