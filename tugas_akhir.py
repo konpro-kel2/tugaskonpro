@@ -16,3 +16,9 @@ def userinput():
 		else:
 		    return int(guest)
 		    putar = False
+			
+def main():
+	tebak = True
+	number = randnumber()
+	angkauser = userinput()
+	num_tebak = 0
