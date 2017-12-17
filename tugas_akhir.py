@@ -28,3 +28,12 @@ def main():
 			print("Tebakan benar, angkanya adalah", number)
 			print("Tertebak dalam %d tebakan" % num_tebak)
 			tebak = False
+		elif (angkauser<number):
+			print("Angka terlalu kecil")
+			angkauser = userinput()
+		else:
+			print("Angka terlalu besar")
+			angkauser = userinput()
+	print("Terimakasih sudah bermain")
+
+main()
